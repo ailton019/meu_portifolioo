@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'AARDC___.TTF';
+    src: url('../fonte/AARDC___.TTF') format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url("../imagens/fundo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+main > h1{
+    font-family: 'AARDC___.TTF';
+    font-weight: normal;
+    color: rgb(80, 79, 79);
+    font-size: 3.2em;
+    padding: 10px;
+    text-shadow: 2px 3px 5px  rgba(10, 10, 10, 0.651);
+}
+main > p {
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1.0em;
+    text-align: center;
+    color: rgb(80, 79, 79);
+    padding: 10px;
+}
+
+main > p:hover{
+    color: rgba(85, 150, 150, 0.733);
+    transition: color 0.5s ease;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    list-style-type: none; /* Remove bullets from the list */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+.menu li {
+    float: left; /* Align list items horizontally */
+}
+
+.menu a {
+    font-family: "New Amsterdam", sans-serif;
+    display: block;
+    color: rgb(138, 131, 131);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 0px 0px 5px 5px ;
+}
+
+.menu a:hover {
+    
+    height: 10px;
+    color: rgba(85, 150, 150, 0.733);
+    background-color: #111; /* Change background on hover */
+}
+#sobre{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 1px 2px 2px black;
+}
