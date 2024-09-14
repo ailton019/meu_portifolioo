@@ -174,3 +174,7 @@ footer{
   text-align: center;
   padding: 8px;
 }
+
+#cv::after{
+  content: '\00A0\📁';
+}
