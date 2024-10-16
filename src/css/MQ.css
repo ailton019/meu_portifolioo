@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+
+@media screen and (max-width: 768px) {
+    /* CSS para tela grande */
+    body, html {
+        font-size: 15px;
+    }
+
+    header{
+        & h1{
+            font-size: 50px;
+        }
+        & p{
+            font-size: 1.2em;
+        }   
+    }
+    section{
+        & p{
+            font-size: 3em;
+        }
+    }
+}
